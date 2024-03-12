@@ -10,10 +10,13 @@ class MiApp0378 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(initialRoute: "/", routes: {
-      "/": (context) => PantallaInicial_0378(),
-      "/Pantall1_0378": (context) => Pantalla1_0378(),
-      "/Pantall2_0378": (context) => Pantalla2_0378(),
-    });
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        initialRoute: "/",
+        routes: {
+          "/": (context) => PantallaInicial_0378(),
+          "/Pantall1_0378": (context) => Pantalla1_0378(),
+          "/Pantall2_0378": (context) => Pantalla2_0378(),
+        });
   }
 }
