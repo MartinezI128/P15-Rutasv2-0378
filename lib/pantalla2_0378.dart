@@ -11,23 +11,17 @@ class Pantalla2_0378 extends StatelessWidget {
         backgroundColor: Colors.deepOrange,
       ),
       body: Center(
-        //  Card with size
         child: Container(
-          color: Color(0xffdcd7d7),
-          width: double.infinity,
-          height: 200,
-          child: Card(
-            color: Color(0xffff6b01),
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Martinez Ruiz Iram Ernesto 6-I 0378',
-                style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
-              ),
-            ),
+          color: Color(0xffe78a4c),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Iram Ernesto Martinez Ruiz 0378',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),

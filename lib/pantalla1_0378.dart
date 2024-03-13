@@ -6,23 +6,24 @@ class Pantalla1_0378 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Card 0378"),
-          backgroundColor: Color(0xffc90b0b),
-        ),
-        body: Center(
-          child: Card(
-            elevation: 10,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            color: Color(0xffde6a60),
-            child: Padding(
-                padding: EdgeInsets.all(20),
-                child: Text(
-                  "Card Martinez",
-                  style: TextStyle(fontSize: 30, color: Color(0xff000000)),
-                )),
+      appBar: AppBar(
+        title: Text("Card 0378"),
+        backgroundColor: Color(0xffc90b0b),
+      ),
+      body: Center(
+        child: Container(
+          color: Color(0xffb44d4d),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Iram Ernesto Martinez Ruiz 0378',
+            style: TextStyle(fontSize: 30),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
